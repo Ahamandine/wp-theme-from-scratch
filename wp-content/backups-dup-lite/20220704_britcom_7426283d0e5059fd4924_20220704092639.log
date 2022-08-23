@@ -1,0 +1,87 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 4 July 2022 9h27
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.7
+WORDPRESS:	6.0
+PHP INFO:	8.1.5 | SAPI: fpm-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 10MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20220704_britcom_7426283d0e5059fd4924_20220704092639_database.sql
+SQL FILE SIZE: 521.24KB (533754)
+SQL FILE TIME: 2022-07-04 09:27:08
+SQL RUNTIME: 0.03 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/amandine/projects/wp2
+ARCHIVE FILE: 20220704_britcom_7426283d0e5059fd4924_20220704092639_archive.zip
+FILTERS: *ON*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	88.61MB
+STATS:	Dirs 766 | Files 4,488
+SQL ADDED: 20220704_britcom_7426283d0e5059fd4924_20220704092639_database.sql
+ZipArchive Object
+(
+    [lastId] => 5253
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5254
+    [filename] => /home/amandine/projects/wp2/wp-content/backups-dup-lite/tmp/20220704_britcom_7426283d0e5059fd4924_20220704092639_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 5253
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 43.4MB
+ARCHIVE RUNTIME: 4.38 sec.
+MEMORY STACK: 12MB
+building installer
+[PHP ERR][WARN] MSG:is_readable(): open_basedir restriction in effect. File(/dev/urandom) is not within the allowed path(s): (/home/amandine/projects/wp2:/tmp:/var/lib/php/sessions/wp2) [CODE:2|FILE:/home/amandine/projects/wp2/wp-content/plugins/duplicator/classes/class.password.php|LINE:63]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_PasswordHash->HashPassword, DUP_PasswordHash->get_random_bytes, is_readable, DUP_Handler::error, DUP_Handler::getMessage
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/amandine/projects/wp2/wp-content/backups-dup-lite/tmp/20220704_britcom_7426283d0e5059fd4924_20220704092639_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 521.24KB
+INSTALLER FILE: 64.59KB
+ARCHIVE FILE: 44.44MB 
+EXPECTED FILE/DIRECTORY COUNT: 5,254
+ACTUAL FILE/DIRECTORY COUNT: 5,253
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 4.69 sec.
+PEAK PHP MEMORY USED: 12MB
+DONE PROCESSING => 20220704_britcom 4 July 2022 9h27
+
